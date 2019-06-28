@@ -34,6 +34,7 @@ function traverse(object, keys, k = "") {
  * Filter JSON data by traversing it to meet the criteria in filters
  * @param  {Object} data      Can accept any valid JSON data
  * @param  {[Object]} filters An array of object that contains the filter options in the form [{"path1": {"checked": {Boolean}, "value": {String}}}]
+ *                            Assumes that all path names is in filters, if any of them are not present it will fail.
  * @return {Object}           A JSON object that has been filtered to meet the criteria in filters
  */
 export function filterData(data, filters) {
@@ -45,7 +46,7 @@ export function filterData(data, filters) {
 /**
  * A helper function that will recursively call itself to traverse through the JSON object and filter the data
  * @param  {Object} data    Can accept any valid JSON data
- * @param  {[Set]} filters  An array of object that contains the filter options in the form [{"path1": {"checked": {Boolean}, "value": {String}}}]
+ * @param  {[Object]} filters  An array of object that contains the filter options in the form [{"path1": {"checked": {Boolean}, "value": {String}}}]
  * @param  {String} k       A string containing the parent key relative to the current object. k is "" represents the root object.
  */
 function traverseAndFilter(data, filters, k = "") {
