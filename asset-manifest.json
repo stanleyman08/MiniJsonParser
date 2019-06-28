@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/miniJSONParser/static/css/main.34de6062.chunk.css",
+    "main.js": "/miniJSONParser/static/js/main.60ab4462.chunk.js",
+    "main.js.map": "/miniJSONParser/static/js/main.60ab4462.chunk.js.map",
+    "runtime~main.js": "/miniJSONParser/static/js/runtime~main.b1fbca0c.js",
+    "runtime~main.js.map": "/miniJSONParser/static/js/runtime~main.b1fbca0c.js.map",
+    "static/css/2.510409cd.chunk.css": "/miniJSONParser/static/css/2.510409cd.chunk.css",
+    "static/js/2.77e6fb04.chunk.js": "/miniJSONParser/static/js/2.77e6fb04.chunk.js",
+    "static/js/2.77e6fb04.chunk.js.map": "/miniJSONParser/static/js/2.77e6fb04.chunk.js.map",
+    "index.html": "/miniJSONParser/index.html",
+    "precache-manifest.42aeee874bb4d15b56053a07ee29eb05.js": "/miniJSONParser/precache-manifest.42aeee874bb4d15b56053a07ee29eb05.js",
+    "service-worker.js": "/miniJSONParser/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/miniJSONParser/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/miniJSONParser/static/css/main.34de6062.chunk.css.map"
+  }
+}
