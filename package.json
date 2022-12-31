@@ -5,7 +5,7 @@
   "homepage": "https://stanleyman08.github.io/miniJSONParser",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "flat": "^4.1.0",
+    "flat": "^5.0.1",
     "gh-pages": "^2.0.1",
     "json-query": "^2.2.2",
     "jsonq": "^1.2.0",
